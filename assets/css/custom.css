@@ -1,1 +1,61 @@
 /* Place custom css here */
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-Regular.ttf') format('truetype');
+    font-weight: nomal light;
+    font-style: normal;
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-Italic.ttf') format('truetype');
+    font-weight: normal light;
+    font-style: italic;
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    unicode-range: U+000-5FF;
+}
+
+
+@font-face {
+    font-family: 'noto-serif';
+    src: url('/fonts/noto-serif/NotoSerifSC-Regular.ttf') format('truetype');
+    font-weight: normal light;
+    font-style: normal italic;
+    unicode-range: U+4E00-9FFF;
+}
+
+@font-face {
+    font-family: 'noto-serif';
+    src: url('/fonts/noto-serif/NotoSerifSC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal italic;
+    unicode-range: U+4E00-9FFF;
+}
+
+/*p:lang(en) {
+    font-family: 'liberation-serif';
+}
+
+p:lang(zh) {
+    font-family: 'noto-serif';
+}*/ 
+
+body {
+    font-family: 'noto-serif', 'liberation-serif';
+}
