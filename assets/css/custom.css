@@ -1,1 +1,59 @@
 /* Place custom css here */
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-Regular.woff2') format('woff2');
+    font-weight: nomal light;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-Italic.woff2') format('woff2');
+    font-weight: normal light;
+    font-style: italic;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-display: swap;
+    font-style: normal;
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-family: 'liberation-serif';
+    src: url('/fonts/liberation-serif/LiberationSerif-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-display: swap;
+    font-style: italic;
+    unicode-range: U+000-5FF;
+}
+
+
+@font-face {
+    font-family: 'noto-serif';
+    src: url('/fonts/noto-serif/NotoSerifSC-Regular.woff2') format('woff2');
+    font-weight: normal light;
+    font-display: swap;
+    font-style: normal italic;
+    unicode-range: U+4E00-9FFF;
+}
+
+@font-face {
+    font-family: 'noto-serif';
+    src: url('/fonts/noto-serif/NotoSerifSC-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-display: swap;
+    font-style: normal italic;
+    unicode-range: U+4E00-9FFF;
+}
+
+body {
+    font-family: 'noto-serif', 'liberation-serif';
+}
